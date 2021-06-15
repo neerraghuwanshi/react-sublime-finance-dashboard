@@ -1,0 +1,135 @@
+.container{
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.heading{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.detailsContainer{
+    display: grid;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+.buttonContainer{
+    padding: 5px;
+    border: 2px solid #ECF0F4;
+    margin-top: 10px;
+}
+
+.buttonTitle{
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.viewMore:hover{
+    cursor: pointer;
+}
+
+.overviewContainer{
+    grid-template-columns: 1fr;
+}
+
+.depositAndSaveOverviewContainer{
+    grid-template-columns: 1fr;
+}
+
+.creditLinesContainer{
+    grid-template-columns: 1fr;
+}
+
+
+@media (min-width: 400px){
+    .container{
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .heading{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .detailsContainer{
+        grid-gap: 12px;
+        margin-top: 12px;
+    }
+    .buttonContainer{
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 500px){
+    .container{
+        padding: 30px;
+        padding-bottom: 0;
+    }
+    .heading{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .detailsContainer{
+        grid-gap: 14px;
+        margin-top: 14px;
+    }
+    .buttonContainer{
+        margin-top: 14px;
+    }
+    .buttonTitle{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .overviewContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+    .depositAndSaveOverviewContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .creditLinesContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        padding: 40px;
+        padding-bottom: 0;
+    }
+    .heading{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .detailsContainer{
+        grid-gap: 16px;
+        margin-top: 16px;
+    }
+    .buttonContainer{
+        padding: 7px;
+        margin-top: 16px;
+    }
+    .buttonTitle{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media (min-width: 850px){
+    .creditLinesContainer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px){
+    .creditLinesContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1400px){
+    .creditLinesContainer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

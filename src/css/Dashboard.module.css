@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.importantContainer{
+    background: linear-gradient(180deg, #F9FAFC 15.84%, #FFFFFF 68.86%);
+}
+
+
+@media (min-width: 1200px){
+    .container{
+        flex-direction: row;
+    }
+    .detailsContainer{
+        margin-right: 0;
+        width: fit-content;
+    }
+    .importantContainer{
+        width: fit-content;
+        margin-right: auto;
+        margin-left: 0;
+    }
+}

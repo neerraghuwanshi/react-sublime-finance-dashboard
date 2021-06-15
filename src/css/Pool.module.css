@@ -1,0 +1,283 @@
+.container{
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 14px rgba(132, 132, 132, 0.1);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.upperContainer{
+    border-bottom: 1px solid #F6F6F6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.rowContainer{
+    display: flex;
+}
+
+.rowCentredContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.name{
+    font-weight: 600;
+    color: #A5ADC6;
+    font-size: 8px;
+    line-height: 12px;
+}
+
+.buttonRowContainer{
+    display: flex;
+    margin-top: 10px;
+}
+
+.rowButton{
+    border-style: none;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 5px 14px;
+    margin-right: 7px;
+    font-size: 6px;
+}
+
+.rowButton:hover{
+    cursor: text;
+}
+
+.rowButtonTitle{
+    font-size: 10px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.keyValueContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.key{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: #61709F;
+}
+
+.value{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+}
+
+.bigButton{
+    padding: 5px;
+}
+
+.bigButton:hover{
+    background: #FFD85F;
+    border-color: #FFD85F;
+}
+
+.bigButtonTitle{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.gracePeriodButton{
+    background: #FFDBDB;
+}
+
+.gracePeriodTitle{
+    color: #F95B72;
+}
+
+.collectingButton{
+    background: #FFF6D9;
+}
+
+.collectingTitle{
+    color: #D6AA24;
+}
+
+.closedButton{
+    padding: 4px 12px;
+    border: 1px solid #A5ADC6;
+    background: none;
+}
+
+.closedTitle{
+    color: #A5ADC6;
+}
+
+.progressContainer{
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-left: 5px;
+    background-color: #ECF0F4;
+}
+
+.progress{
+    background-color: #59C891;
+    height: 5px;
+}
+
+
+@media (min-width: 400px){
+    .container{
+        padding: 15px;
+    }
+    .upperContainer{
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+    .username{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .name{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .buttonRowContainer{
+        display: flex;
+        margin-top: 15px;
+    }
+    .rowButton{
+        padding: 4px 17px;
+        margin-right: 8.5px;
+        font-size: 10px;
+    }
+    .rowButtonTitle{
+        font-size: 12px;
+    }
+    .image{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        margin-right: 13px;
+    }
+    .keyValueContainer{
+        margin-bottom: 15px;
+    }
+    .key{
+        font-size: 13px;
+    }
+    .value{
+        font-size: 13px;
+    }
+    .bigButton{
+        padding: 7px;
+    }
+    .bigButtonTitle{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .progressContainer{
+        width: 70px;
+        height: 5px;
+        border-radius: 2.5px;
+        margin-left: 7px;
+    }
+    .progress{
+        height: 7px;
+    }
+}
+
+@media (min-width: 500px){
+    .bigButton{
+        padding: 8px;
+    }
+    .bigButtonTitle{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .progressContainer{
+        width: 80px;
+        height: 6px;
+        border-radius: 3px;
+        margin-left: 8px;
+    }
+    .progress{
+        height: 8px;
+    }
+}
+
+@media (min-width: 1400px){
+    .container{
+        padding: 20px;
+    }
+    .upperContainer{
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .username{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .name{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .buttonRowContainer{
+        margin-top: 20px;
+    }
+    .rowButton{
+        padding: 5px 20px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .rowButtonTitle{
+        font-size: 14px;
+    }
+    .image{
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        margin-right: 16px;
+    }
+    .keyValueContainer{
+        margin-bottom: 20px;
+    }
+    .key{
+        font-size: 16px;
+    }
+    .value{
+        font-size: 16px;
+    }
+    .bigButton{
+        padding: 10px;
+    }
+    .bigButtonTitle{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .closedButton{
+        padding: 4px 18px;
+    }
+    .progressContainer{
+        width: 100px;
+        height: 7px;
+        border-radius: 3.5px;
+        margin-left: 10px;
+    }
+    .progress{
+        height: 10px;
+    }
+}

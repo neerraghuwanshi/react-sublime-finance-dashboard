@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+    border: 2px solid #ECF0F4;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.container:hover{
+    cursor: pointer;
+}

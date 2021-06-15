@@ -1,0 +1,202 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    font-weight: 500;
+    color: #A5ADC6;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.activeLink{
+    color: #212B4C;
+    border-bottom: 2px solid #212B4C;
+    padding-bottom: 8px;
+}
+
+.image{
+    width: 10px;
+    height: 10px;
+}
+
+.search{
+    font-weight: 500;
+    padding-left: 7px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.filter{
+    border: 1px solid #ECF0F4;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 0 10px;
+    height: 32px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 100px;
+
+    /* Removing Old Arrow  */
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+
+    /* Adding New Arrow  */
+    background: transparent;
+    background-image: url('./images/icons/downArrow.png');
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.search:hover{
+    cursor: pointer;
+}
+
+.filter:hover{
+    cursor: pointer;
+}
+
+
+@media (min-width: 300px){
+    .link{
+        margin-bottom: 12px;
+        padding: 12px 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .activeLink{
+        padding-bottom: 17px;
+    }
+    .image{
+        width: 12px;
+        height: 12px;
+    }
+    .search{
+        padding: 8px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .filter{
+        margin-left: 25px;
+        padding: 0 12px;
+        height: 36px;
+        font-size: 12px;
+        line-height: 18px;
+        width: 150px;
+        background-size: 10px;
+        background-position-x: calc(100% - 12px);
+    }
+}
+
+
+@media (min-width: 400px){
+    .link{
+        margin-bottom: 14px;
+        padding: 15px 0;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .activeLink{
+        border-bottom: 3px solid #212B4C;
+        padding-bottom: 12px;
+    }
+    .image{
+        width: 13px;
+        height: 13px;
+    }
+    .search{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .filter{
+        margin-left: 30px;
+        padding: 0 15px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 21px;
+        width: 200px;
+        background-position-x: calc(100% - 15px);
+    }
+}
+
+@media (min-width: 768px){
+    .linksContainer{
+        justify-content: space-around;
+    }
+    .link{
+        padding: 20px 0;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .activeLink{
+        padding-bottom: 17px;
+    }
+    .image{
+        width: 17px;
+        height: 17px;
+    }
+    .search{
+        padding-left: 10px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .filter{
+        margin-left: 40px;
+        padding: 0 20px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 24px;
+        width: 250px;
+        background-size: 12px;
+        background-position-x: calc(100% - 20px);
+    }
+}
+
+@media (min-width: 1400px){
+    .container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }   
+    .linksContainer{
+        width: fit-content;
+        justify-content: center;
+    }
+    .link{
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+    .filter{
+        width: 300px;
+    }
+}
